@@ -15,6 +15,20 @@ The project is organized into the following files:
 2. `matrix_multiplication.h` and `matrix_multiplication.cpp`: These files contain functions for scalar and AVX2-optimized matrix multiplication using Eigen.
 3. `deformable_attention.h` and `deformable_attention.cpp`: These files contain the implementation of the deformable attention operation.
 
+
+## Necessary Installations
+1. opencv2/opencv.hpp 
+    a. Ubuntu - 
+    sudo apt update
+    sudo apt install libopencv-dev
+
+    b. macOS - 
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew install opencv
+
+    c. Windows -
+    Download via https://opencv.org/releases/
+
 ## How to Run
 To compile and run the project, follow these steps:
 
